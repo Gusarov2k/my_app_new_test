@@ -27,7 +27,7 @@ ActiveRecord::Schema.define(version: 20181116111359) do
 
   create_table "images", force: :cascade do |t|
     t.integer  "imageable_id"
-    t.string   "imageble_type"
+    t.string   "imageable_type"
     t.datetime "created_at"
     t.datetime "updated_at"
   end
